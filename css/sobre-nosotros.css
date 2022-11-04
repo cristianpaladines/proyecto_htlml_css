@@ -1,0 +1,45 @@
+.sobre_nosotros {
+    /* background-color: var(--background-azul-clar); */
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.sobre_nosotros__titulo {
+    color: var(--fuente-ceniza-oscuro);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.sobre_nosotros__texto {
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.sobre_nosotros__subtitulo{
+    color: var(--fuente-ceniza-oscuro);
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.sobre_nosotros__plataformas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.sobre_nosotros__imagen{
+    margin-left: 50px;
+}
+
+.sobre-nosotros {
+    color: var(--fuente-ceniza-oscuro);
+    font-weight: 700;
+}
